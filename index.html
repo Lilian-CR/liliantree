@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>LilianTree: Lilian Rodrigues — Links</title>
+  <title>Lilian Rodrigues — Links</title>
 
   <!-- Font -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
@@ -15,6 +15,7 @@
     body {
       opacity: 0;
       animation: fadeIn 0.8s ease-in forwards;
+      background-color: #f4f4ec;
     }
 
     @keyframes fadeIn {
@@ -22,20 +23,68 @@
       to { opacity: 1; transform: translateY(0); }
     }
 
-    /* Icons inside links */
+    .links-card {
+      background: #fff;
+      border-radius: 1rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      padding: 2rem 1.5rem;
+      max-width: 420px;
+      margin: 3rem auto;
+      text-align: center;
+    }
+
+    .avatar {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+      border: 3px solid #000;
+    }
+
+    h1 {
+      font-family: 'Inter', sans-serif;
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: #111;
+      margin-bottom: 0.25rem;
+    }
+
+    p {
+      font-size: 0.9rem;
+      color: #444;
+      margin-bottom: 1rem;
+    }
+
+    /* 🌼 Yellow link boxes */
     a {
       display: flex;
       align-items: center;
       justify-content: center;
       gap: 0.5rem;
+      text-decoration: none;
+      color: #000;
+      background-color: #FFBD47;
+      border: 2px solid #000;
+      border-radius: 0.75rem;
+      padding: 0.65rem 1rem;
+      margin: 0.4rem 0;
+      font-weight: 500;
+      font-size: 0.9rem;
+      transition: all 0.2s ease-in-out;
+    }
+
+    a:hover {
+      background-color: #000;
+      color: #FFBD47;
+      transform: translateY(-2px);
     }
 
     a img.icon {
       width: 20px;
       height: 20px;
       object-fit: contain;
-      border-radius: 4px;
-      background: transparent;
+      filter: brightness(0); /* makes icons black */
     }
 
     @media (max-width: 420px) {
@@ -43,6 +92,12 @@
         width: 18px;
         height: 18px;
       }
+    }
+
+    .footer {
+      margin-top: 1rem;
+      font-size: 0.8rem;
+      color: #333;
     }
   </style>
 </head>
@@ -55,37 +110,37 @@
     <p>Aspiring Full-Stack Web Developer · Berlin</p>
 
     <a href="https://linkedin.com/in/lilian-rodrigues-berlin" target="_blank">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" class="icon">
+      <img src="https://api.iconify.design/mdi:earth.svg" alt="LinkedIn" class="icon">
       LinkedIn
     </a>
 
     <a href="https://github.com/lilian-crs" target="_blank">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" class="icon">
+      <img src="https://api.iconify.design/mdi:earth.svg" alt="GitHub" class="icon">
       GitHub
     </a>
 
     <a href="https://liliando.netlify.app/" target="_blank">
-      <img src="https://api.iconify.design/mdi:shopping-outline.svg" alt="Liliando" class="icon">
+      <img src="https://api.iconify.design/mdi:earth.svg" alt="Liliando" class="icon">
       Project: Liliando – School e-commerce milestone
     </a>
 
     <a href="https://mypeoplebooking.net/" target="_blank">
-      <img src="https://api.iconify.design/mdi:account-group.svg" alt="My People Booking" class="icon">
+      <img src="https://api.iconify.design/mdi:earth.svg" alt="My People Booking" class="icon">
       Project: My People Booking
     </a>
 
     <a href="https://mypeoplefest.net/" target="_blank">
-      <img src="https://api.iconify.design/mdi:music.svg" alt="My People Fest" class="icon">
+      <img src="https://api.iconify.design/mdi:earth.svg" alt="My People Fest" class="icon">
       Project: My People Fest
     </a>
 
     <a href="https://nothingworksbln.netlify.app" target="_blank">
-      <img src="https://api.iconify.design/mdi:guitar-electric.svg" alt="Nothing Works" class="icon">
+      <img src="https://api.iconify.design/mdi:earth.svg" alt="Nothing Works" class="icon">
       Project: Nothing Works – Band Website
     </a>
 
     <a href="https://bgts-schedule.netlify.app" target="_blank">
-      <img src="https://api.iconify.design/mdi:calendar-clock.svg" alt="Live Schedule" class="icon">
+      <img src="https://api.iconify.design/mdi:earth.svg" alt="Live Schedule" class="icon">
       Project: Live Schedule – Black Girls Tech Summit 2025
     </a>
 
@@ -94,7 +149,7 @@
       Email me
     </a>
 
-    <p class="footer">Full-Stack Web Development · ReDI School Alumna</p>
+    <p class="footer">Full-Stack Web Development · ReDI School Alumna 🌍</p>
   </section>
 </body>
 </html>

@@ -50,7 +50,7 @@ Url Image → profile image
 
 ## LilianTree
 
-🔗 **[Visit Online](https://liliantree.netlify.app/)**  
+**[Visit Online](https://liliantree.netlify.app/)**  
 
 ---
 

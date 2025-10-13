@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/lilian-tree.PNG" alt="Lilian Tree" width="180" style="border-radius: 50%; border: 3px solid #000;">
+  <img src="images/lilian-tree.PNG" alt="Lilian Tree" width="800" style="border-radius: 50%; border: 3px solid #000;">
 </p>
 
 # Lilian Rodrigues — Personal Links Page
